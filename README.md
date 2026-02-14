@@ -1,10 +1,10 @@
 # Matrix Factorization for Collaborative Filtering: ALS vs SGD with Biases
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements and compares multiple Matrix Factorization algorithms for collaborative filtering on the MovieLens 100k dataset. The implementation includes both **Alternating Least Squares (ALS)** and **Stochastic Gradient Descent (SGD)** optimization methods, with and without user/item bias terms, providing a comprehensive analysis of their performance characteristics.
 
-## 🎯 Objectives
+##  Objectives
 
 1. Implement Matrix Factorization with ALS and SGD optimization
 2. Add user and item bias terms to improve prediction accuracy
@@ -12,7 +12,7 @@ This project implements and compares multiple Matrix Factorization algorithms fo
 4. Analyze trade-offs between accuracy, training time, and inference speed
 5. Evaluate with multiple metrics: RMSE, MAE, and HitRate@K
 
-## 📊 Dataset
+##  Dataset
 
 **Dataset**: MovieLens 100k  
 **Source**: GroupLens Research Lab, University of Minnesota
@@ -33,7 +33,7 @@ This project implements and compares multiple Matrix Factorization algorithms fo
 - **Test set**: ~10,000 ratings (943 users × 10 ratings each)
 - **Validation**: No overlap between train and test (assertion checked)
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### Loss Function
 
